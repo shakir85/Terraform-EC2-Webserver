@@ -2,7 +2,7 @@
 Terraform template to launch VPC, EC2, and Apache Webserver
 
 # What is included?
-1. VPC launch and configurations including: Routing tables, Subnetting, Internet-Gateway, Rout-tables - Gateway association.
+1. VPC launch and configurations including: Routing tables, Subnetting, Internet-Gateway, Routing-tables - Gateway association.
 2. Security Group: allow inbound and outbound roles for SSH (port 20) and HTTP (port 80) with the desired CIDR blocks.
 3. Launching an Elastic Network Interface to serve EIP.
 4. Launching EC2 T2 Micro instance to serve as web-server.
